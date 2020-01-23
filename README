@@ -5,15 +5,18 @@ ex8a.c
  * Writen by: adi ben ezra, id = 206124000, login = adibene
  *            yael yishay , id = 305345811, login = yaelor
  *
- * algoritem:
- * 
- * *this program creates 6 threads, the first three get a 
-   random number between -10 and 10 if the number is positive
-   adds the number to an array otherwise, delete the positive
-   the thread returns how many it added and how many it delete
-   the last thee threads get a random number between 1 and    	10  and searches for it in the array. returns how many      values where found
- * 
- * 
+ 
+ algoritem:
+ 
+ this program creates 6 threads, the first three get a 
+ random number between -10 and 10 if the number is positive
+ adds the number to an array otherwise, delete the positive
+ the thread returns how many it added and how many it delete
+ the last thee threads get a random number between 1 and 10 
+ and searches for it in the array.
+ returns how many values where found
+  
+ 
 
 Compile: gcc -Wall -lpthread ex8a.c -o ex8a
 Run: ./ex8a
